@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	//Aqui Pusher recibe como parametro la KEY
-	var pusher = new Pusher('9cc0bc2e04c995ae545e');
+	var pusher = new Pusher('KEY');
 	//Suscribirnos a un canal de comunicacion
 	var channel = pusher.subscribe('chat');
 	fecha = new Date();
